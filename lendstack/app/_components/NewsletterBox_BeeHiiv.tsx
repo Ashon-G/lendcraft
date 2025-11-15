@@ -27,11 +27,11 @@ import { cn } from '@/lib/utils';
 export default function NewsletterBox_BeeHiiv({
 	size = 'lg',
 	className,
-	title = 'Want a shiny new component not listed above?',
-	description = 'enter your email to get one straight to your inbox.',
-	disclaimer = 'DISCLAIMER: We do NOT sell your information to 3rd parties.',
-	textForPrivacyPolicy = 'Read our privacy policy',
-	linkToPrivacyPolicy = 'https://financechest.io/privacy-policy',
+        title = 'Want a fresh arcade component in your inbox?',
+        description = 'Drop your email and we will send new React Native interfaces plus Expo embeds each week.',
+        disclaimer = 'DISCLAIMER: We respect your inventory. No spam, no resale of your data.',
+        textForPrivacyPolicy = 'Read our privacy policy',
+        linkToPrivacyPolicy = 'https://arcadekit.dev/privacy-policy',
 }: {
 	size?: 'sm' | 'lg';
 	className?: string;

@@ -1,0 +1,82 @@
+---
+componentName: Arcade Quest Hub
+category: expo-previews
+slug: arcade-quest-hub
+shortDescription: "Interactive Expo preview of a quest-tracking hub."
+longDescription: "Explore how ArcadeKit components come together inside Expo. Swap tabs, trigger confetti, and preview reward cards without leaving the browser."
+hasImage: true
+imageUrl: /img/products/lending.png
+imageAlt: Arcade Quest Hub | ArcadeKit
+hasComponentCode: true
+tags: ['Expo', 'Demo']
+techStack: ['React Native', 'Expo', 'TypeScript', 'Reanimated']
+examples: [{nameOfPage: 'ArcadeKit', urlToPage: 'https://arcadekit.dev', descriptionOfUsage: 'ArcadeKit embeds the Quest Hub on launch pages to stream the Expo preview live.', imgageSrcOfUsage: ''}]
+faq: [{question: 'How do I embed this preview on my own site?', answer: 'Copy the Expo web preview iframe and drop it into any page. You can adjust the height, border radius, and theme to match your brand.'}]
+metaDescription: "An Expo preview showcasing ArcadeKit components working together."
+metaTitle: "Arcade Quest Hub Preview"
+license: MIT
+---
+
+<SubSectionOuterContainer id="Docs">
+<SubSectionTitle>Step-By-Step Guide</SubSectionTitle>
+<SubSectionInnerContainer  className="border-l-2 border-gray-300 space-y-12 max-w-5xl mt-4 px-1 pl-10 items-start overflow-x-hidden">
+<HowToStep index='1' title="Launch the Expo preview">
+
+Open the live sandbox at [https://expo.dev/@arcadekit/quest-hub](https://expo.dev/@arcadekit/quest-hub) and press **Open in Web**. This loads the latest build with hot refresh enabled.
+
+</HowToStep>
+
+<HowToStep index='2' title="Embed the preview anywhere">
+
+Use the Expo embed snippet below to drop the interactive preview into documentation, marketing pages, or dashboards.
+
+<CodeBlock fileName="expo-preview.html">
+
+```html
+<iframe
+  src="https://expo.dev/@arcadekit/quest-hub?serviceType=classic&preview=true"
+  title="Arcade Quest Hub"
+  style="width: 100%; min-height: 620px; border: 0; border-radius: 24px; overflow: hidden;"
+  allow="camera; microphone; clipboard-read; clipboard-write"
+></iframe>
+```
+
+</CodeBlock>
+
+</HowToStep>
+
+<HowToStep index='3' title="Connect the data layer">
+
+The preview ships with mocked quest data. Replace the `useDemoQuests` hook with your own GraphQL or REST fetcher and the UI will update instantly thanks to Expo Fast Refresh.
+
+<CodeBlock fileName="hooks/useDemoQuests.ts">
+
+```ts
+import { useEffect, useState } from 'react';
+
+export function useDemoQuests() {
+  const [quests, setQuests] = useState(initialQuests);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setQuests((current) =>
+        current.map((quest) =>
+          quest.id === 'weekly'
+            ? { ...quest, progress: Math.min(quest.progress + 10, 100) }
+            : quest
+        )
+      );
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return { quests };
+}
+```
+
+</CodeBlock>
+
+</HowToStep>
+</SubSectionInnerContainer>
+</SubSectionOuterContainer>

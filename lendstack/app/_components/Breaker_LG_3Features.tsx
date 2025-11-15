@@ -25,11 +25,11 @@ type Feature = {
  * @returns The rendered feature section component.
  */
 export default function Breaker_LG_3Features({
-	features,
-	className,
-	title = 'Do you want to submit to the marketplace?',
-	subTitle = 'Submission Guidelines',
-	description = 'Some Actual Description Here.',
+        features,
+        className,
+        title = 'Do you want to share your build?',
+        subTitle = 'ArcadeKit submission playbook',
+        description = 'Keep the controls tight, provide a live Expo link, and describe how your UI levels up the player experience.',
 }: {
 	features: Feature[];
 	className?: string;
@@ -52,9 +52,9 @@ export default function Breaker_LG_3Features({
 					<p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
 						{subTitle}
 					</p>
-					<p className="text-sm italic mt-2 max-w-2xl mx-auto">
-					  Welcome to the Finance Chest Marketplace! To maintain the highest quality and ensure a seamless experience for all users, please follow these submission guidelines carefully.
-					</p>					
+                                        <p className="text-sm italic mt-2 max-w-2xl mx-auto">
+                                          Welcome to ArcadeKit! To keep every preview smooth and every interface joyful, follow these short guidelines when you submit a new component or Expo demo.
+                                        </p>
 <h2 className="text-5xl mt-4 max-w-2xl mx-auto"></h2>
 
 				</div>
