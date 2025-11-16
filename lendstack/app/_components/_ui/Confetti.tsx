@@ -1,6 +1,6 @@
 'use client';
 
-// Credit to: financechest.io
+// Credit to: arcadekit.dev
 // Import Types
 // Import External Packages
 import { useEffect, useRef } from 'react';

@@ -1,7 +1,7 @@
 # Implementation Guide
 
-Welcome to the implementation guide of [financechest's](https://financechest.io) [Ui Component Library](https://financechest.io/templates/ui-component-library).
-If you struggle at any point, you have several options, including contacting me through email [support@financechest.io], through [X/Twitter](https://x.com/tkahlen), refer to the more [detailed docs](https://financechest.io/docs), or ask ChatGPT. :D
+Welcome to the implementation guide of [ArcadeKit's](https://arcadekit.dev) [UI Component Library](https://arcadekit.dev/templates/ui-component-library).
+If you struggle at any point, you have several options, including contacting me through email [support@arcadekit.dev], through [X/Twitter](https://x.com/tkahlen), refer to the more [detailed docs](https://arcadekit.dev/docs), or ask ChatGPT. :D
 
 ## Step 1: Business Details
 

@@ -24,7 +24,7 @@ export default async function AboutPage() {
       <Breadcrumps />
       <SectionTitle>About Us</SectionTitle>
       <SectionDescription>
-        Empowering developers and designers to build innovative financial solutions with ease.
+        Empowering developers and designers to craft game-inspired React Native experiences with live Expo previews.
       </SectionDescription>
       
       <SubSectionOuterContainer>
@@ -35,7 +35,7 @@ export default async function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-lg font-semibold dark:text-white">Our Mission</h2>
               <p className="py-2 dark:text-white">
-                At Finance Chest, we are dedicated to providing a comprehensive suite of tools and resources to help you create your own financial features or platforms quickly and efficiently. Whether you are a developer, designer, or both, our platform offers a variety of code snippets, GitHub repositories, and widgets to accelerate your development process.
+                At ArcadeKit, we deliver a comprehensive suite of tools and resources to help you ship gamelike React Native flows in days, not months. Whether you are a developer, designer, or both, our platform pairs polished code snippets with Expo previews so you can test interactions instantly.
               </p>
             </div>
             <div className="md:w-1/2 md:pl-8">
@@ -51,9 +51,9 @@ export default async function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-lg font-semibold dark:text-white">What We Offer</h2>
               <ul className="py-2 dark:text-white list-disc list-inside">
-                <li>Ready-to-use code snippets for common financial components.</li>
-                <li>Access to our curated GitHub repositories with complete project examples.</li>
-                <li>Customizable widgets to integrate directly into your applications.</li>
+                <li>Ready-to-use React Native components inspired by arcade game UI.</li>
+                <li>Live Expo previews you can embed in docs, pitches, and dashboards.</li>
+                <li>Customizable widgets that plug into your authentication, rewards, and data systems.</li>
               </ul>
             </div>
           </div>
@@ -63,10 +63,10 @@ export default async function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-lg font-semibold dark:text-white">Join Our Community</h2>
               <p className="py-2 dark:text-white">
-                Join our growing community of developers and designers who are leveraging our open-source platform to innovate and create impactful financial solutions. Contribute to our projects, share your ideas, and collaborate with like-minded professionals.
+                Join our growing community of builders who remix ArcadeKit components into onboarding flows, quest systems, and live leaderboards. Contribute previews, share motion ideas, and collaborate with like-minded creators.
               </p>
               <p className="py-2 dark:text-white">
-                Get started today and see how Finance Chest can transform your development workflow.
+                Get started today and see how ArcadeKit can transform your development workflow.
               </p>
             </div>
             <div className="md:w-1/2 md:pl-8">

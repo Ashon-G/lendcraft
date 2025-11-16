@@ -177,10 +177,10 @@ export default function Footer() {
 					<InternalLinkBar linkList={FOOTER_NAVIGATION_LINKS} />
 				</div>
 
-				<PortfolioLinkBar
-					title="Check out our other fintech masterpieces!"
-					linkList={FOOTER_EXTERNAL_LINK_LIST}
-				/>
+                                <PortfolioLinkBar
+                                        title="Level up with more ArcadeKit resources"
+                                        linkList={FOOTER_EXTERNAL_LINK_LIST}
+                                />
 
 				<div className="py-4 border-t border-white/10 text-gray-400">
 					{FOOTER_DISCLAIMERS.map((disclaimer) => (

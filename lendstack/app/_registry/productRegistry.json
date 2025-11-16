@@ -4,26 +4,26 @@
       "componentName": "Check Form Component",
       "category": "components",
       "slug": "check-form",
-      "shortDescription": "Check Form Component developed by Finance Chest.",
-      "longDescription": "This component was developed to calculate revenue share a fintech as a service provider will offer to a partner.",
+      "shortDescription": "Retro check-in overlay styled for ArcadeKit.",
+      "longDescription": "Built for game-inspired onboarding flows, this React Native check-in card animates between states and keeps your monetization stats playful.",
       "hasImage": true,
       "imageUrl": "/img/products/Check Component.png",
-      "imageAlt": "Check Form Component | Finance Chest",
+      "imageAlt": "Check Form Component | ArcadeKit",
       "hasComponentCode": true,
       "tags": [
         "Calculator"
       ],
       "techStack": [
-        "React 18",
-        "CSS3",
+        "React Native",
+        "Expo",
         "TypeScript",
-        "NextJs"
+        "Tailwind"
       ],
       "examples": [
         {
-          "nameOfPage": "financechest",
-          "urlToPage": "https://financechest.io",
-          "descriptionOfUsage": "financechest is using the confetti effect after someone made a purchase!",
+          "nameOfPage": "ArcadeKit",
+          "urlToPage": "https://arcadekit.dev",
+          "descriptionOfUsage": "ArcadeKit drops the overlay after every quest completion to celebrate the player.",
           "imgageSrcOfUsage": ""
         }
       ],
@@ -33,8 +33,8 @@
           "answer": "This component can be used \"as is\" and was built without any specific API integration in mind."
         }
       ],
-      "metaDescription": "Beautifully designed check form designed by Finance Chest",
-      "metaTitle": "Fintech Check Form Component",
+      "metaDescription": "A React Native check-in interface crafted by ArcadeKit for gamified finance apps.",
+      "metaTitle": "Arcade Check Form Component",
       "license": "MIT",
       "productLine": "components"
     },
@@ -42,26 +42,26 @@
       "componentName": "Card Component",
       "category": "components",
       "slug": "neopop-credit-card",
-      "shortDescription": "Credit card component developed by Finance Chest.",
-      "longDescription": "This component was developed to show both the front and back side of a debit or credit card as well as other visually appealing animations unique to only Finance Chest but stil keeping the code modular and scalable.",
+      "shortDescription": "ArcadeKit's neon card stack for React Native.",
+      "longDescription": "Flip between front and back with buttery Expo animations. Perfect for showing player stats, reward balances, or cosmic credit cards.",
       "hasImage": true,
       "imageUrl": "/img/products/Card Component.png",
-      "imageAlt": "Card Component | Finance Chest",
+      "imageAlt": "Card Component | ArcadeKit",
       "hasComponentCode": true,
       "tags": [
         "Credit-Card"
       ],
       "techStack": [
-        "React 18",
-        "CSS3",
+        "React Native",
+        "Expo",
         "TypeScript",
-        "NextJs"
+        "Tailwind"
       ],
       "examples": [
         {
-          "nameOfPage": "financechest",
-          "urlToPage": "https://financechest.io",
-          "descriptionOfUsage": "financechest is using the confetti effect after someone made a purchase!",
+          "nameOfPage": "ArcadeKit",
+          "urlToPage": "https://arcadekit.dev",
+          "descriptionOfUsage": "ArcadeKit showcases the neon card stack to select a new quest reward.",
           "imgageSrcOfUsage": ""
         }
       ],
@@ -71,8 +71,8 @@
           "answer": "Corpay"
         }
       ],
-      "metaDescription": "Beautifully designed credit card from CRED.CLUB!",
-      "metaTitle": "Fintech Card Component",
+      "metaDescription": "A shimmering game-card UI for React Native with Expo motion presets.",
+      "metaTitle": "Arcade Card Component",
       "license": "MIT",
       "productLine": "components"
     },
@@ -80,26 +80,26 @@
       "componentName": "Revenue Calculator Component",
       "category": "components",
       "slug": "revenue-calculator",
-      "shortDescription": "Revenue Calculator Component developed by Finance Chest.",
-      "longDescription": "This component was developed to calculate revenue share a fintech as a service provider will offer to a partner.",
+      "shortDescription": "Co-op reward calculator for ArcadeKit missions.",
+      "longDescription": "Let squads divvy up loot with a playful calculator UI. Built in React Native with TypeScript and ready for live data hooks.",
       "hasImage": true,
       "imageUrl": "/img/products/Accounts Component.png",
-      "imageAlt": "Revenue Calculator Component | Finance Chest",
+      "imageAlt": "Revenue Calculator Component | ArcadeKit",
       "hasComponentCode": true,
       "tags": [
         "Calculator"
       ],
       "techStack": [
-        "React 18",
-        "CSS3",
+        "React Native",
+        "Expo",
         "TypeScript",
-        "NextJs"
+        "Tailwind"
       ],
       "examples": [
         {
-          "nameOfPage": "financechest",
-          "urlToPage": "https://financechest.io",
-          "descriptionOfUsage": "financechest is using the confetti effect after someone made a purchase!",
+          "nameOfPage": "ArcadeKit",
+          "urlToPage": "https://arcadekit.dev",
+          "descriptionOfUsage": "ArcadeKit uses the calculator to split XP bonuses between teammates.",
           "imgageSrcOfUsage": ""
         }
       ],
@@ -109,8 +109,8 @@
           "answer": "This component can be used \"as is\" and was built without any specific API integration in mind."
         }
       ],
-      "metaDescription": "Beautifully designed revenue calculator designed by Finance Chest",
-      "metaTitle": "Fintech Revenue Calculator Component",
+      "metaDescription": "Game-inspired revenue share UI designed by ArcadeKit for React Native.",
+      "metaTitle": "Arcade Reward Calculator Component",
       "license": "MIT",
       "productLine": "components"
     },
@@ -118,26 +118,26 @@
       "componentName": "Transaction List Component",
       "category": "components",
       "slug": "transaction-list",
-      "shortDescription": "A simple transaction list for card-based fintech apps.",
-      "longDescription": "Transactions is a digital ledger of exchanges between a buyer and a merchant, this transaction list displays the merchant, transaction id, purchase date, and amount.",
+      "shortDescription": "Quest activity log styled for game economies.",
+      "longDescription": "List every quest, drop, and purchase with gradient accents and icon slots. Ideal for tracking in-game currency or loyalty points.",
       "hasImage": true,
       "imageUrl": "/img/products/Interchange Component.png",
-      "imageAlt": "Transactions List | Finance Chest",
+      "imageAlt": "Transactions List | ArcadeKit",
       "hasComponentCode": true,
       "tags": [
         "Credit-Card"
       ],
       "techStack": [
-        "React 18",
-        "CSS3",
+        "React Native",
+        "Expo",
         "TypeScript",
-        "Corpay"
+        "Tailwind"
       ],
       "examples": [
         {
-          "nameOfPage": "financechest",
-          "urlToPage": "https://financechest.io",
-          "descriptionOfUsage": "financechest is using the confetti effect after someone made a purchase!",
+          "nameOfPage": "ArcadeKit",
+          "urlToPage": "https://arcadekit.dev",
+          "descriptionOfUsage": "ArcadeKit highlights the activity list to recap achievements after every session.",
           "imgageSrcOfUsage": ""
         }
       ],
@@ -147,49 +147,51 @@
           "answer": "Corpay"
         }
       ],
-      "metaDescription": "Simple transactions list component developed by Finance Chest",
-      "metaTitle": "Fintech Transactions List Component",
+      "metaDescription": "An activity feed template for React Native with arcade flair.",
+      "metaTitle": "Arcade Transactions List Component",
       "license": "MIT",
       "productLine": "components"
     }
   ],
-  "fintech": [
+  "expo-previews": [
     {
-      "componentName": "Loan Application",
-      "category": "fintech",
-      "slug": "loan-application",
-      "shortDescription": "Fintech loan application",
-      "longDescription": "Beautifully designed custom loan application for brokers, consultants, & B2B companies. Everything works outside the box after setup!",
+      "componentName": "Arcade Quest Hub",
+      "category": "expo-previews",
+      "slug": "arcade-quest-hub",
+      "shortDescription": "Interactive Expo preview of a quest-tracking hub.",
+      "longDescription": "Explore how ArcadeKit components come together inside Expo. Swap tabs, trigger confetti, and preview reward cards without leaving the browser.",
       "hasImage": true,
       "imageUrl": "/img/products/lending.png",
-      "imageAlt": "Loan Application | financechest",
+      "imageAlt": "Arcade Quest Hub | ArcadeKit",
       "hasComponentCode": true,
       "tags": [
-        "Lenders"
+        "Expo",
+        "Demo"
       ],
       "techStack": [
-        "React",
-        "Tailwind",
-        "shadcn/ui"
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Reanimated"
       ],
       "examples": [
         {
-          "nameOfPage": "financechest",
-          "urlToPage": "https://financechest.io",
-          "descriptionOfUsage": "financechest is using the confetti effect after someone made a purchase!",
+          "nameOfPage": "ArcadeKit",
+          "urlToPage": "https://arcadekit.dev",
+          "descriptionOfUsage": "ArcadeKit embeds the Quest Hub on launch pages to stream the Expo preview live.",
           "imgageSrcOfUsage": ""
         }
       ],
-      "faq": [
-        {
-          "question": "Can it make fireworks, too?",
-          "answer": "No, it is a CONFETTI button..."
-        }
-      ],
-      "metaDescription": "Custom loan application for software and consulting teams!",
-      "metaTitle": "Loan Application",
+        "faq": [
+          {
+            "question": "Can I embed this preview on my own site?",
+            "answer": "Yes. Use the Expo iframe snippet provided in the docs to showcase the Quest Hub anywhere."
+          }
+        ],
+      "metaDescription": "An Expo preview showcasing ArcadeKit components working together.",
+      "metaTitle": "Arcade Quest Hub Preview",
       "license": "MIT",
-      "productLine": "fintech"
+      "productLine": "expo-previews"
     }
   ]
 }

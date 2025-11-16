@@ -23,14 +23,16 @@ import TextScroll from './_components/text_scroll/TextScroll';
  * @returns The rendered Home page component.
  */
 export default function Home() {
-	const subtitles = [
-	  ""
-	];
-	return (
-		<div className="flex flex-col mx-auto">
-			<Hero />
-			<br/>
-			<CombinedTitleSubtitle title="" subtitles={subtitles} />
+        const subtitles = [
+          'Ship gamelike flows without starting from scratch.',
+          'Embed Expo previews on landing pages, docs, or investor decks.',
+          'Customize every component with TypeScript-first patterns.'
+        ];
+        return (
+                <div className="flex flex-col mx-auto">
+                        <Hero />
+                        <br/>
+                        <CombinedTitleSubtitle title="Why teams choose ArcadeKit" subtitles={subtitles} />
 			<br/>
 			<Suspense>
 				<CategoryOverview categoryName="components" />

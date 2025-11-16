@@ -33,9 +33,9 @@ export default function BreakerSimple({
 }: SectionBreakerProps) {
 	return (
 						<div className="mt-10 flex items-center justify-center gap-x-6">
-							<iframe
-								title="FINANCE_CHEST.IO checkout widget"
-								src="https://nas.io/checkout-widget?communityCode=FINANCE_CHEST.IO&communitySlug=%2Ffinance-chest.io&buttonText=Signup!&buttonTextColorHex=%23000&buttonBgColorHex=%23fccb1d&widgetTheme=dark&backgroundColorHex=%23000"
+                                                        <iframe
+                                                                title="ARCADEKIT checkout widget"
+                                                                src="https://nas.io/checkout-widget?communityCode=ARCADEKIT.DEV&communitySlug=%2Farcadekit.dev&buttonText=Join+the+Arcade&buttonTextColorHex=%23000&buttonBgColorHex=%23fccb1d&widgetTheme=dark&backgroundColorHex=%23000"
 								width="1750"
 								height="330"
 								frameBorder="0"

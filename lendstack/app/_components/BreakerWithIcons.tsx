@@ -36,42 +36,42 @@ type Feature = {
 };
 
 const exampleFeatures: Feature[] = [
-	{
-		name: 'Next.js 14',
-		description:
-			'The new version is the best thing since sliced bread. App Router, Server Actions, and more!',
-		icon: Code2Icon,
-	},
-	{
-		name: 'React 18',
-		description:
-			'The latest version of the most popular frontend framework. Battle tested and ready to go.',
-		icon: CodeIcon,
-	},
-	{
-		name: 'shadcn/ui',
-		description:
-			'Beautifully designed UI components that are easy to use and customize. It is the best way to build your UI.',
-		icon: ComponentIcon,
-	},
-	{
-		name: 'TailwindCSS',
-		description:
-			'The most popular CSS framework. It is easy to use, well documented and has a great community.',
-		icon: SwatchBookIcon,
-	},
-	{
-		name: 'TypeScript',
-		description:
-			'TypeScript ensures that your code is always correct. It is the best way to write JavaScript.',
-		icon: FileLockIcon,
-	},
-	{
-		name: 'Framer Motion',
-		description:
-			'Frictionless motion design for the web. Create animations and interactions with an easy-to-use API.',
-		icon: DatabaseZapIcon,
-	},
+        {
+                name: 'Expo Router',
+                description:
+                        'Navigate quests and screens with nested routes that feel native on every platform.',
+                icon: Code2Icon,
+        },
+        {
+                name: 'React Native + TypeScript',
+                description:
+                        'Strong typing keeps your gamelike interactions predictable while you move fast.',
+                icon: CodeIcon,
+        },
+        {
+                name: 'Arcade Animations',
+                description:
+                        'Powered by Reanimated and Moti for buttery transitions, parallax cards, and celebratory moments.',
+                icon: ComponentIcon,
+        },
+        {
+                name: 'Nativewind Styling',
+                description:
+                        'Utility-first styling that works across iOS, Android, and the web with theme tokens.',
+                icon: SwatchBookIcon,
+        },
+        {
+                name: 'Expo Modules',
+                description:
+                        'Drop in haptics, audio cues, and sensors to make every interaction feel like a win.',
+                icon: FileLockIcon,
+        },
+        {
+                name: 'Live Preview Ready',
+                description:
+                        'Each kit ships with an embeddable Expo sandbox so your team can iterate in real time.',
+                icon: DatabaseZapIcon,
+        },
 ];
 
 /**
@@ -87,8 +87,8 @@ const exampleFeatures: Feature[] = [
 export default function BreakerWithIcons({
 	features = exampleFeatures,
 	className,
-	title = 'Tech Stack',
-	description = 'Only the finest ingredients are used in our buttons.',
+        title = 'What powers ArcadeKit',
+        description = 'Our components lean on proven React Native tools so your product feels as polished as your favorite games.',
 	iconCols = 3,
 }: {
 	features?: Feature[];
